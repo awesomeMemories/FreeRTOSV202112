@@ -21,7 +21,7 @@
  *
  * https://www.FreeRTOS.org
  * https://github.com/FreeRTOS
- *
+;*
  */
 
 /******************************************************************************
@@ -80,6 +80,7 @@
     #define     mainSELECTED_APPLICATION    USER_DEMO
 #else /* Default Setting */
     #define    mainSELECTED_APPLICATION     BLINKY_DEMO
+//	    #define    mainSELECTED_APPLICATION     FULL_DEMO
 #endif
 
 /* This demo uses heap_3.c (the libc provided malloc() and free()). */
