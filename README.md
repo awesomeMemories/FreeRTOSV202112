@@ -8,11 +8,13 @@
 - [Conclusion](#Conclusion)
 
 ## Introduction
-This is an incomplete copy of FreeRTOS. It only has Linux port(the port is also referred to as the POSIX port). See about [Linux port](https://freertos.org/FreeRTOS-simulator-for-Linux.html)
+This is an incomplete copy of FreeRTOS. It only has Linux port(the port is also referred to as the POSIX port). See about [Linux port](https://freertos.org/FreeRTOS-simulator-for-Linux.html).
+
 If you need the complete documentation, please visit [Official website](https://www.freertos.org/).
+
 If you need complete FreeRTOS: Go to the website https://www.freertos.org, then click on the "Download FreeRTOS" button on the top menu bar.
 
-###Scope
+### Scope
 This software aims to learn about the FreeRTOS using Linux to create task, queues between task, etc.
 
 
