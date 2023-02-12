@@ -43,37 +43,37 @@ This software aims to learn about the FreeRTOS using Linux to create task, queue
       $ make clean
       
 * Running the Demo :
-   1. Navigate to the newly created "build" directory 
+   1. Navigate to the newly created "build" directory  
       $ cd build 
-   2. Run the Kernel demo (Blinky or Full)
+   2. Run the Kernel demo (Blinky or Full)  
       $ ./posix_demo  
       NOTE: By default runs the Blinky 
 
    3. If you need to change to FULL_DEMO behavior: Go to FreeRTOS/Demo/Posix_GCC/main.c file, then uncomment de FULL_DEMO define and comment de BLINKY_DEMO define, make clean and make run again.
 
-    //#define    mainSELECTED_APPLICATION     BLINKY_DEMO  
-    #define    mainSELECTED_APPLICATION     FULL_DEMO
+      //#define    mainSELECTED_APPLICATION     BLINKY_DEMO  
+      #define    mainSELECTED_APPLICATION     FULL_DEMO
 
 
 ## Results
 Below is the normal behavior for BLINKY_DEMO example.
 
-Trace started.
-The trace will be dumped to disk if a call to configASSERT() fails.
-Starting echo blinky demo
-RX:1 Message received from task
-RX:2 Message received from task
-RX:3 Message received from task
-RX:4 Message received from task
-RX:Message received from software timer
-RX:1 Message received from task
-RX:2 Message received from task
-RX:3 Message received from task
-RX:4 Message received from task
-RX:5 Message received from task
-RX:Message received from software timer
-RX:1 Message received from task
-RX:2 Message received from task
+Trace started.  
+The trace will be dumped to disk if a call to configASSERT() fails.  
+Starting echo blinky demo  
+RX:1 Message received from task  
+RX:2 Message received from task  
+RX:3 Message received from task  
+RX:4 Message received from task  
+RX:Message received from software timer  
+RX:1 Message received from task  
+RX:2 Message received from task  
+RX:3 Message received from task  
+RX:4 Message received from task  
+RX:5 Message received from task  
+RX:Message received from software timer  
+RX:1 Message received from task  
+RX:2 Message received from task  
 
 
 ### There are two task and a timer:
