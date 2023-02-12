@@ -21,7 +21,7 @@ This software aims to learn about the FreeRTOS using Linux to create task, queue
 ## Methodology
 * Prerequisites:
    1. gcc
-      $ gcc --version 
+      $ gcc --version
       gcc (GCC) 9.2.0
 
    2. make
